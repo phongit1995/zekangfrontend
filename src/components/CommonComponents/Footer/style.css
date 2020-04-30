@@ -1,0 +1,122 @@
+.footerBottom{
+    background: #91af77;
+    position: relative;
+}
+.footerBottom div.container{
+    z-index: 99999;
+    position: relative;
+}
+.footerContent {
+    text-align: center;
+    padding: 5% 0 5% 0;
+}
+.footerMenu_{
+    background: #00000030;
+}
+.footerContent h4{
+    text-transform: uppercase;
+    color: #fff;
+}
+.footerContent span{
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.footerDres{
+    border-style: dotted;
+    border-radius: 10px;
+    padding: 10px;
+}
+.footerDres span{
+    font-size: 0.9em;
+    color: #242424;
+}
+.footerItem {
+    padding: 0% 0 2% 0;
+}
+li.footer-menu-item.footer-Item {
+    padding: 0 16px 0 0;
+}
+ul#footer-menu-primary-menu {
+    padding: 2% 0 2% 0;
+    margin: 0;
+    display: flex;
+    height: 100%;
+}
+li.footer-menu-item {
+    padding: 0 16px 0 16px;
+    display: flex;
+    border-right: 1px solid #657a54;
+    cursor: pointer;
+    font-size: 1em;
+    color: #242424;
+    align-items: center;
+}
+.footerMess{
+    height: 100%;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav#footer-main-nav {
+    height: 100%;
+}
+@media (max-width: 992px) { 
+    .footerContent h4 {
+        font-size: 1em;
+    }
+    .content-text h6,.content-text span {
+        font-size: 0.8em!important;
+    }
+    .footerDres span {
+        font-size: 0.75em;
+    }
+    .footerContent span {
+        font-size: 1em;
+    }
+    li.footer-menu-item {
+        font-size: 0.7em;
+    }
+    ul#footer-menu-primary-menu {
+        padding: 3% 0 3% 0;
+        height: 100%;
+    }
+    .footerMess img {
+        height: initial;
+        width: initial;
+    }
+}
+@media (max-width: 700px) { 
+    li.footer-menu-item {
+        font-size: 0.6em;
+    }
+    .footerMess img {
+        height: auto;
+        width: auto;
+    }
+    .footerDres span {
+        font-size: 0.7em;
+    }
+    .footerDres {
+        height: 10em;
+    }
+}
+@media (max-width: 390px){
+    .content-text h6, .content-text span {
+        font-size: 0.7em!important;
+    }
+    .footerContent h4 {
+        font-size: .9em;
+    }
+    .footerContent span {
+        font-size: .8em;
+    }
+    .footerDres span {
+        font-size: 0.7em!important;
+    }
+    .btn {
+        font-size: .4em!important;
+        width: inherit;
+    }
+}
